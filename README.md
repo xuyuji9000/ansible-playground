@@ -1,7 +1,17 @@
 This project test out ansible.
 
+# Before Start
+
+1. Create a server on aliyun
+
+2. Add the public ip to hosts
+
 # Commands
 
-1. check server availability
+- check server availability
 
     `ansible -i hosts all -m ping -u root`
+
+- list all hosts
+
+    `ansible -i hosts --list-host all`
