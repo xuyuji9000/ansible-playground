@@ -4,7 +4,9 @@ This project test out ansible.
 
 1. Create a server on aliyun
 
-2. Add the public ip to hosts
+2. Copy hosts.default as hosts
+
+3. Add the public ip to hosts
 
 # Commands
 
