@@ -1,5 +1,7 @@
 This project contains learning practice for ansible.
 
+## Directories
+
 1. basic
 
 `basic` contains basic operations like list all servers and for ansible.
