@@ -1,19 +1,9 @@
-This project test out ansible.
+This project contains learning practice for ansible.
 
-# Before Start
+1. basic
 
-1. Create a server on aliyun
+`basic` contains basic operations like list all servers and for ansible.
 
-2. Copy hosts.default as hosts
+2. playbook
 
-3. Add the public ip to hosts
-
-# Commands
-
-- check server availability
-
-    `ansible -i hosts all -m ping -u root`
-
-- list all hosts
-
-    `ansible -i hosts --list-host all`
+`playbook` contains palybook usage examples.
