@@ -17,3 +17,8 @@ This project test out ansible.
 - list all hosts
 
     `ansible -i hosts --list-host all`
+
+- check server uptime
+
+    `ansible all -i hosts -m command -a 'uptime' -u root`
+
