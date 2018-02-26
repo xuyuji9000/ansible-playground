@@ -29,3 +29,7 @@ This project test out ansible.
 - run command on server
 
     `ansible -i hosts -u root all -a "/bin/echo 'test'"`
+
+- disable host key checking
+
+    `export ANSIBLE_HOST_KEY_CHECKING=False`
