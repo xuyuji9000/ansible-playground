@@ -22,3 +22,10 @@ This project test out ansible.
 
     `ansible all -i hosts -m command -a 'uptime' -u root`
 
+- get servers public ip
+
+    `aliyuncli ecs DescribeInstances --RegionId cn-shanghai --output text --filter Instances.Instance[0].PublicIpAddress.IpAddress`
+
+- run command on server
+
+    `ansible -i hosts -u root all -a "/bin/echo 'test'"`
