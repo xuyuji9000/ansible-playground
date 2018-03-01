@@ -50,6 +50,7 @@
     ```
     virtualenv -p python3 venv
     source ./venv/bin/activate
+    pip install -r requirements.txt
     ```
 
 2. set environment variable
@@ -61,4 +62,4 @@
 
 3. list dynamic inventory
 
-    `ansible -i ec2.py -u ubuntu --list-hosts ap-southeast-1`
+    `ansible -i ec2.py -u ubuntu --list-hosts ap-northeast-2`
